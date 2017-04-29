@@ -69,6 +69,11 @@ button,
   border: 1px outset green;
 }
 
+.button:link,
+.button:link:hover {
+  text-decoration: none;
+}
+
 button.full-width,
 .button.full-width {
 	display: block;
@@ -85,12 +90,13 @@ button:before,
   position: absolute;
   /*background: rgba(255,255,0,.5); /* DEBUG CLICK AREA */
 }
-
+.button:active,
 button:active {
   box-shadow: 0 0 0 rgba(0,0,0,.3);
   background: limegreen;
 }
 
+.button,
 button,
 button:active,
 button:hover,
